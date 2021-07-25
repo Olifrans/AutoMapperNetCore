@@ -7,6 +7,8 @@ namespace AutoMapperNetCore.DestinoDTO
 {
     public class DetalhesCliente
     {
+        public int Id { get; set; }
+
         public string ClienteNome { get; set; }
 
         public string OrderNumero { get; set; }

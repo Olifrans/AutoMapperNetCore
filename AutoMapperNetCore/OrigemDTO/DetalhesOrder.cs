@@ -7,6 +7,8 @@ namespace AutoMapperNetCore.OrigemDTO
 {
     public class DetalhesOrder
     {
+        public int Id { get; set; }
+
         public string OrderNumero { get; set; }
 
         public int OrderQuantidade { get; set; }

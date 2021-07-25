@@ -12,9 +12,9 @@ namespace AutoMapperNetCore.AutoMapeador
     {
         private IMapper _autoMapper;
 
-        public OrderRespostar(IMapper automapper)
+        public OrderRespostar(IMapper autoMapper)
         {
-            _autoMapper = automapper  ?? throw new ArgumentNullException(nameof(automapper));
+            _autoMapper = autoMapper ?? throw new ArgumentNullException(nameof(autoMapper));
         }
 
 

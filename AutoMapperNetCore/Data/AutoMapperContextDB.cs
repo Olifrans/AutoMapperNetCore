@@ -1,4 +1,5 @@
-﻿using AutoMapperNetCore.OrigemDTO;
+﻿using AutoMapperNetCore.DestinoDTO;
+using AutoMapperNetCore.OrigemDTO;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,5 +15,6 @@ namespace AutoMapperNetCore.Data
         }
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<DetalhesOrder> DetalhesOrders { get; set; }
+        public DbSet<DetalhesCliente> DetalhesClientes { get; set; }
     }
 }
